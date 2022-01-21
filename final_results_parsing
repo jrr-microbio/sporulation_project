@@ -3,7 +3,7 @@
 ##########
 #Usage example:
 source /opt/Miniconda2/miniconda2/bin/activate scripts
-python3 /home/projects/Sporulation_AMG/spor_by_fam.py /home/projects/Sporulation_AMG/columbia_River/VirHostMatcher/output/d2star_k6.csv /home/projects/Kayla_SBR_ColumbiaRiver_OnUnity/MetaG/MAGs/Drep_bins_55/dereplication_bins_drep_noCheckM/dereplicated_genomes/GTDB/gtdb_summary.tsv parsed_crriver -s /home/projects/Sporulation_AMG/gtdb_families_sporulation.csv --amg_summary /home/projects/Sporulation_AMG/columbia_River/vMAG/distillate_spor_5/amg_summary.tsv
+python3 /home/projects/Sporulation_AMG/spor_by_fam.py /home/projects/Sporulation_AMG/columbia_River/VirHostMatcher/output/d2star_k6.csv /home/projects/Kayla_SBR_ColumbiaRiver_OnUnity/MetaG/MAGs/Drep_bins_55/dereplication_bins_drep_noCheckM/dereplicated_genomes/GTDB/gtdb_summary.tsv parsed_crriver -s /home/projects/Sporulation_AMG/gtdb_families_sporulation.csv --amg_summary /home/projects/Sporulation_AMG/columbia_River/vMAG/distillate_spor_5/amg_summary.tsv##########
 ##########
 
 #!python
