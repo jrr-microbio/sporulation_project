@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --nodes=1                  # Number of requested nodes
+#SBATCH --ntasks=20                # Cores per node requested
+#SBATCH --time=7-1:00:00        	# Timelimit
+#SBATCH --mem=180gb                # Job memory (1024gb=1tb)
+#SBATCH --mail-type=BEGIN,END,FAIL         
+#SBATCH --mail-user=jrodram@colostate.edu
+#SBATCH --partition=wrighton-hi
+#SBATCH --nodelist=zenith
+
+cd /home/projects/Sporulation_AMG/hmp/VirHostMatcher
+
+python /opt/VirHostMatcher/vhm.py -v virus -b host -o output
